@@ -4,7 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".loreg.LoginActivity">
+    tools:context=".loreg.RegistrasiActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="321dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/boxinput"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="86dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="24dp"
+        android:text="re-Password"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <TextView
         android:id="@+id/textView7"
@@ -41,7 +69,7 @@
         android:text="@string/email"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/textView10"
-        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -56,8 +84,8 @@
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
@@ -65,12 +93,11 @@
         android:id="@+id/textView12"
         android:layout_width="66dp"
         android:layout_height="20dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:text="@string/password"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
@@ -91,81 +118,43 @@
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <Button
-        android:id="@+id/btnMasuk"
+        android:id="@+id/btndaftar"
         android:layout_width="247dp"
         android:layout_height="68dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="52dp"
         android:background="@drawable/lanjut"
-        android:text="@string/masuk"
+        android:text="Daftar"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        tools:ignore="TextContrastCheck" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
-        android:text="@string/atau_masuk_dengan"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/btnMasuk"
-        app:layout_constraintStart_toStartOf="@+id/btnMasuk"
-        app:layout_constraintTop_toBottomOf="@+id/btnMasuk" />
-
-    <androidx.constraintlayout.utils.widget.ImageFilterButton
-        android:id="@+id/btnfb"
-        android:layout_width="47dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="8dp"
-        app:circularflow_radiusInDP="12dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView13"
-        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:srcCompat="@drawable/facebook"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
-
-    <androidx.constraintlayout.utils.widget.ImageFilterButton
-        android:id="@+id/btngoogle"
-        android:layout_width="47dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="8dp"
-        app:circularflow_radiusInDP="12dp"
-        app:layout_constraintEnd_toEndOf="@+id/textView13"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/btnfb"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:srcCompat="@drawable/google"
-        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView14"
         android:layout_width="126dp"
         android:layout_height="23dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="32dp"
         android:text="@string/belum_punya_akun"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/btnfb"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="@+id/btnfb"
-        app:layout_constraintTop_toBottomOf="@+id/btnfb" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndaftar" />
 
     <Button
-        android:id="@+id/btndfr"
+        android:id="@+id/btnmsk"
         android:layout_width="95dp"
         android:layout_height="35dp"
-        android:layout_marginTop="11dp"
+        android:layout_marginTop="23dp"
         android:backgroundTint="#00FFFFFF"
-        android:text="@string/daftar"
+        android:text="Masuk"
         android:textColor="#DD2C00"
         android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="@+id/btngoogle"
-        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintEnd_toEndOf="@+id/btndaftar"
         app:layout_constraintStart_toEndOf="@+id/textView14"
-        app:layout_constraintTop_toBottomOf="@+id/btngoogle"
+        app:layout_constraintTop_toBottomOf="@+id/btndaftar"
         tools:ignore="TouchTargetSizeCheck" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

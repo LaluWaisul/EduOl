@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EduOl">
         <activity
+            android:name=".loreg.SelamatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loreg.RegistrasiActivity"
+            android:exported="false" />
+        <activity
             android:name=".awal.Ob3Activity"
             android:exported="false" />
         <activity

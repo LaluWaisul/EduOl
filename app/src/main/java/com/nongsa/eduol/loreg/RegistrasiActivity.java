@@ -10,22 +10,21 @@ import android.widget.Button;
 import com.nongsa.eduol.MainActivity;
 import com.nongsa.eduol.R;
 
-public class LoginActivity extends AppCompatActivity {
+public class RegistrasiActivity extends AppCompatActivity {
 
-    Button btnmasuk;
-    Button btnDaftar;
+    Button btnmasuk, btnDaftar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_registrasi);
 
-        btnmasuk = (Button)findViewById(R.id.btnMasuk);
-        btnDaftar = (Button)findViewById(R.id.btndfr);
+        btnmasuk = (Button)findViewById(R.id.btnmsk);
+        btnDaftar = (Button)findViewById(R.id.btndaftar);
 
         btnmasuk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent( LoginActivity.this, MainActivity.class);
+                Intent intent = new Intent( RegistrasiActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -34,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         btnDaftar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent( LoginActivity.this, RegistrasiActivity.class);
+                Intent intent = new Intent( RegistrasiActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

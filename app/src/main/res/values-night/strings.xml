@@ -22,4 +22,16 @@
     <string name="lanjut">Lanjut</string>
     <string name="skip">SKIP</string>
     <string name="ket">ket</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="masuk_dengan_akun_yang_sudah_kamu_miliki_atau_dengan_sosial_media_kamu">Masuk dengan akun yang sudah kamu miliki atau dengan sosial media kamu</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="masuk">Masuk</string>
+    <string name="atau_masuk_dengan">atau masuk dengan</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar">Daftar</string>
+    <string name="selamat_anda_mendapatkan_10_koin_pertama_untuk_membaca_cerita_dan_kerjakan_kuis_untuk_membuka_cerita_lain">Selamat anda mendapatkan 10 koin pertama untuk membaca cerita dan kerjakan kuis untuk membuka cerita lain</string>
+    <string name="selamat">selamat</string>
+    <string name="button">Button</string>
+    <string name="lanjut">Lanjut</string>
 </resources>
