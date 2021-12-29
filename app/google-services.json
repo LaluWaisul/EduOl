@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "236442389711",
+    "project_id": "eduol-5ec1a",
+    "storage_bucket": "eduol-5ec1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236442389711:android:ee23405bc5a5027aa13bba",
+        "android_client_info": {
+          "package_name": "com.nongsa.eduol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236442389711-b611bdclspj8r9vg9ti46kimd6uv9ivh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnX-OaaGh0O6zqHbEurVumYPl1Ea8vJ6M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236442389711-b611bdclspj8r9vg9ti46kimd6uv9ivh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
