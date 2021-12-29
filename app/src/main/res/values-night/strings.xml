@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">EduOl</string>
     <string name="logo">logo</string>
     <string name="baca_cerita_menarik">Baca Cerita Menarik</string>
     <string name="cerita_dan_voice">Cerita dan Voice</string>
@@ -11,19 +11,8 @@
     <string name="mainkan_game_seru">Mainkan Game seru!</string>
     <string name="ob2">Ob2</string>
     <string name="video_animasi">VIDEO ANIMASI</string>
-    <string name="banyak_animasi_cerita">Banyak Animasi Cerita</string>
     <string name="ada_animasi_cerita_yang_bisa_kalian_lihat_disini">Ada animasi cerita yang bisa kalian lihat disini</string>
     <string name="mulai">Mulai</string>
-    <!-- Strings related to login -->
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
     <string name="fbbtn">fbbtn</string>
     <string name="googlebtn">googlebtn</string>
     <string name="atau">atau</string>
