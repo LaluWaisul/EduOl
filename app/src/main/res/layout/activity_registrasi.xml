@@ -7,32 +7,32 @@
     tools:context=".loreg.RegistrasiActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/regpass2"
         android:layout_width="321dp"
         android:layout_height="51dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/boxinput"
         android:ems="10"
         android:importantForAutofill="no"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regPass1"
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="86dp"
         android:layout_height="20dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="80dp"
         android:text="re-Password"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/regEmail"
         app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView7"
@@ -74,7 +74,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/regEmail"
         android:layout_width="323dp"
         android:layout_height="48dp"
         android:layout_marginTop="52dp"
@@ -96,25 +96,25 @@
         android:layout_marginTop="16dp"
         android:text="@string/password"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/regEmail"
         app:layout_constraintHorizontal_bias="0.146"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/regEmail" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/regPass1"
         android:layout_width="321dp"
         android:layout_height="51dp"
         android:layout_marginTop="48dp"
         android:background="@drawable/boxinput"
         android:ems="10"
         android:importantForAutofill="no"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/regEmail"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="@+id/regEmail"
+        app:layout_constraintTop_toBottomOf="@+id/regEmail"
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <Button
@@ -125,10 +125,10 @@
         android:background="@drawable/lanjut"
         android:text="Daftar"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/regpass2"
         app:layout_constraintHorizontal_bias="0.56"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintStart_toStartOf="@+id/regpass2"
+        app:layout_constraintTop_toBottomOf="@+id/regpass2"
         tools:ignore="TextContrastCheck" />
 
     <TextView
@@ -137,7 +137,7 @@
         android:layout_height="23dp"
         android:layout_marginStart="108dp"
         android:layout_marginTop="32dp"
-        android:text="@string/belum_punya_akun"
+        android:text="Sudah Punya akun"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btndaftar" />
