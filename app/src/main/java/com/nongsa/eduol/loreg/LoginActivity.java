@@ -16,6 +16,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.nongsa.eduol.MainActivity;
 import com.nongsa.eduol.R;
+import com.nongsa.eduol.core.HomeActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -62,7 +63,7 @@ public class LoginActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
                             Toast.makeText(LoginActivity.this,"Login Sukses", Toast.LENGTH_LONG).show();
-                            Intent intent = new Intent( LoginActivity.this, MainActivity.class);
+                            Intent intent = new Intent( LoginActivity.this, HomeActivity.class);
                             startActivity(intent);
                             finish();
                         }else{

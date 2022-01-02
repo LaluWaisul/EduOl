@@ -52,8 +52,8 @@
 
     <Button
         android:id="@+id/btnob1next"
-        android:layout_width="294dp"
-        android:layout_height="87dp"
+        android:layout_width="297dp"
+        android:layout_height="69dp"
         android:width="300dp"
         android:background="@drawable/lanjut"
         android:text="@string/lanjut"

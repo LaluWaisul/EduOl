@@ -86,7 +86,7 @@
         android:layout_width="136dp"
         android:layout_height="13dp"
         android:layout_marginTop="18dp"
-        android:contentDescription="@string/gambar_3"
+        android:contentDescription="gambar_3"
         app:layout_constraintEnd_toEndOf="@+id/imageView4"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="@+id/imageView4"

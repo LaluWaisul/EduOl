@@ -18,7 +18,6 @@
     <string name="atau">atau</string>
     <string name="gambar_ob">gambar ob</string>
     <string name="skip">SKIP</string>
-    <string name="gambar_3">gambar 3</string>
     <string name="selamat_datang">Selamat Datang</string>
     <string name="masuk_dengan_akun_yang_sudah_kamu_miliki_atau_dengan_sosial_media_kamu">Masuk dengan akun yang sudah kamu miliki atau dengan sosial media kamu</string>
     <string name="email">Email</string>
@@ -31,4 +30,11 @@
     <string name="selamat">selamat</string>
     <string name="button">Button</string>
     <string name="lanjut">Lanjut</string>
+    <string name="halo">Halo,</string>
+    <string name="waisul_kuroni">Waisul Kuroni</string>
+    <string name="cari_pilihanmu">Cari Pilihanmu</string>
+    <string name="pencarian">pencarian</string>
+    <string name="button">Button</string>
+    <string name="button">Button</string>
+    <string name="button">Button</string>
 </resources>
