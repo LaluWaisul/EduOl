@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/drawable/boxinput.xml" value="0.2203125" />
+        <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/drawable/fb_bg.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2203125" />
         <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/drawable/ic_house.xml" value="0.2203125" />
-        <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_game.xml" value="0.16" />
+        <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_login.xml" value="0.33" />
         <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_ob1.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/RADEN/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_ob2.xml" value="0.20416666666666666" />
@@ -20,7 +24,6 @@
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/drawable/kotak.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/drawable/whitebg.xml" value="0.24114583333333334" />
-        <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_home.xml" value="0.18" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_ob1.xml" value="0.5" />
