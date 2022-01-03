@@ -28,13 +28,12 @@
     <string name="daftar">Daftar</string>
     <string name="selamat_anda_mendapatkan_10_koin_pertama_untuk_membaca_cerita_dan_kerjakan_kuis_untuk_membuka_cerita_lain">Selamat anda mendapatkan 10 koin pertama untuk membaca cerita dan kerjakan kuis untuk membuka cerita lain</string>
     <string name="selamat">selamat</string>
-    <string name="button">Button</string>
+
     <string name="lanjut">Lanjut</string>
     <string name="halo">Halo,</string>
     <string name="waisul_kuroni">Waisul Kuroni</string>
     <string name="cari_pilihanmu">Cari Pilihanmu</string>
     <string name="pencarian">pencarian</string>
-    <string name="button">Button</string>
-    <string name="button">Button</string>
-    <string name="button">Button</string>
+
+    <string name="cerita">Cerita</string>
 </resources>

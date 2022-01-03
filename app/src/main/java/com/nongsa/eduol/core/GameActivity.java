@@ -1,10 +1,12 @@
-package com.nongsa.eduol;
+package com.nongsa.eduol.core;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class gameActivity extends AppCompatActivity {
+import com.nongsa.eduol.R;
+
+public class GameActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

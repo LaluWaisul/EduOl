@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EduOl">
         <activity
-            android:name=".gameActivity"
+            android:name=".core.VideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".core.GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".core.CeritaActivity"
             android:exported="false" />
         <activity
             android:name=".core.HomeActivity"
