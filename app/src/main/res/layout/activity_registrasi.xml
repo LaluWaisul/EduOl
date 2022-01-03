@@ -27,7 +27,7 @@
         android:layout_width="86dp"
         android:layout_height="20dp"
         android:layout_marginTop="80dp"
-        android:text="re-Password"
+        android:text="Re-Password"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="@+id/regEmail"
         app:layout_constraintHorizontal_bias="0.156"
