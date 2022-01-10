@@ -121,12 +121,13 @@
         android:layout_height="46dp"
         android:layout_marginStart="120dp"
         android:layout_marginTop="8dp"
+        android:backgroundTint="#ffffffff"
         app:circularflow_radiusInDP="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView13"
         app:layout_constraintHorizontal_bias="0.232"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:srcCompat="@drawable/facebook"
+        app:srcCompat="@drawable/fb"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck" />
 
     <androidx.constraintlayout.utils.widget.ImageFilterButton
@@ -134,6 +135,7 @@
         android:layout_width="47dp"
         android:layout_height="46dp"
         android:layout_marginTop="8dp"
+        android:backgroundTint="#ffffffff"
         app:circularflow_radiusInDP="12dp"
         app:layout_constraintEnd_toEndOf="@+id/textView13"
         app:layout_constraintHorizontal_bias="1.0"
@@ -160,6 +162,8 @@
         android:layout_height="35dp"
         android:layout_marginTop="11dp"
         android:backgroundTint="#00FFFFFF"
+        android:drawablePadding="0dp"
+        android:shadowColor="#ffffffff"
         android:text="@string/daftar"
         android:textColor="#DD2C00"
         android:textSize="14sp"
@@ -167,6 +171,7 @@
         app:layout_constraintHorizontal_bias="0.355"
         app:layout_constraintStart_toEndOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/btngoogle"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck"
+        tools:shadowColor="#FFFFFFFF" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
