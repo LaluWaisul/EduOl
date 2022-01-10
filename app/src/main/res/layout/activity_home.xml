@@ -60,107 +60,126 @@
 
         <EditText
             android:id="@+id/searchBar"
-            android:layout_width="281dp"
-            android:layout_height="44dp"
-            android:layout_marginStart="47dp"
+            android:layout_width="277dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="1dp"
             android:ems="10"
-            android:hint="@string/pencarian"
+            android:hint="Cari Pilihanmu Disini!"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
+            android:textSize="14sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView10"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0"
             tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/ceritaBtn"
-        android:layout_width="328dp"
-        android:layout_height="122dp"
-        android:layout_marginTop="28dp"
-        android:background="@drawable/cerita"
-        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
-        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/games"
-        android:layout_width="326dp"
-        android:layout_height="123dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/games"
-        app:layout_constraintEnd_toEndOf="@+id/ceritaBtn"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/ceritaBtn"
-        app:layout_constraintTop_toBottomOf="@+id/ceritaBtn">
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_search" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/video"
-        android:layout_width="330dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="24dp"
-        android:background="@drawable/video"
-        app:layout_constraintEnd_toEndOf="@+id/games"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/games"
-        app:layout_constraintTop_toBottomOf="@+id/games">
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="417dp"
-        android:layout_height="79dp"
-        android:layout_marginTop="32dp"
-        android:background="#E65100"
+        android:layout_width="414dp"
+        android:layout_height="62dp"
+        android:background="@drawable/nav_bar"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/video"
-        app:layout_constraintHorizontal_bias="0.517"
-        app:layout_constraintStart_toStartOf="@+id/video"
-        app:layout_constraintTop_toBottomOf="@+id/video"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
         app:layout_constraintVertical_bias="1.0">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/homeBtn"
-            android:layout_width="91dp"
-            android:layout_height="79dp"
-            android:layout_marginTop="-35dp"
-            android:background="@drawable/home"
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="-30dp"
+            android:backgroundTint="#E65100"
+            android:contentDescription="@string/homebutton"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/home"
+            tools:ignore="SpeakableTextPresentCheck" />
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/favoriteBtn"
-            android:layout_width="90dp"
-            android:layout_height="70dp"
-            android:background="@drawable/favorite"
+        <ImageButton
+            android:id="@+id/btnFavorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E65100"
+            android:contentDescription="@string/favorite"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/homeBtn"
+            app:layout_constraintEnd_toStartOf="@+id/btnHome"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/favorite"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/profileBtn"
-            android:layout_width="81dp"
-            android:layout_height="66dp"
-            android:background="@drawable/profile"
+        <ImageButton
+            android:id="@+id/btnProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E65100"
+            android:contentDescription="@string/profile"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/homeBtn"
-            app:layout_constraintTop_toTopOf="parent">
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
+            app:layout_constraintStart_toEndOf="@+id/btnHome"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/profile"
+            tools:ignore="SpeakableTextPresentCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/btnCerita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#fff"
+        android:contentDescription="@string/ceritavoice"
+        app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout"
+        app:srcCompat="@drawable/cerita"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#fff"
+        android:contentDescription="@string/games"
+        app:layout_constraintEnd_toEndOf="@+id/btnCerita"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btnCerita"
+        app:layout_constraintTop_toBottomOf="@+id/btnCerita"
+        app:srcCompat="@drawable/games"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#fff"
+        android:contentDescription="@string/video"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton6"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:srcCompat="@drawable/video"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

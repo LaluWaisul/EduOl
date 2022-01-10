@@ -36,4 +36,10 @@
     <string name="pencarian">pencarian</string>
 
     <string name="cerita">Cerita</string>
+    <string name="homebutton">homebutton</string>
+    <string name="profile">profile</string>
+    <string name="favorite">favorite</string>
+    <string name="video">video</string>
+    <string name="games">games</string>
+    <string name="cari_cerita">cari Cerita</string>
 </resources>
