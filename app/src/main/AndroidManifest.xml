@@ -10,6 +10,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EduOl">
         <activity
+            android:name=".profile.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loreg.IsiDataPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loreg.SuksesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.KritikSaranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.InfoAPPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.GantiAvatarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cerita.HistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cerita.FavoriteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cerita.BacaCeritaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cerita.SelamatCeritaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cerita.DetailCeritaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".cerita.ListCeritaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".video.PlayVideoActivity"
+            android:exported="false" />
+        <activity
             android:name=".kuis.KuisTipe2Activity"
             android:exported="false" />
         <activity
