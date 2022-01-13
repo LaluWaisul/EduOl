@@ -11,7 +11,6 @@
         android:layout_width="321dp"
         android:layout_height="51dp"
         android:layout_marginTop="36dp"
-        android:background="@drawable/nav_bar"
         android:ems="10"
         android:importantForAutofill="no"
         android:inputType="textPassword"
@@ -78,7 +77,6 @@
         android:layout_width="323dp"
         android:layout_height="48dp"
         android:layout_marginTop="52dp"
-        android:background="@drawable/nav_bar"
         android:ems="10"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
@@ -106,7 +104,6 @@
         android:layout_width="321dp"
         android:layout_height="51dp"
         android:layout_marginTop="48dp"
-        android:background="@drawable/nav_bar"
         android:ems="10"
         android:importantForAutofill="no"
         android:inputType="textPassword"
@@ -155,6 +152,18 @@
         app:layout_constraintStart_toEndOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/btndaftar"
         tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btndaftar"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bukit_bawah" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

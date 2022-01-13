@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    app:circularflow_radiusInDP="32dp"
+    tools:context=".kuis.PeringatanKuisActivity">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/peringatan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21"
+        app:srcCompat="@drawable/peringatan" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="319dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/bacalah_soal_dengan_teliti_dan_pilih_jawaban_yang_tepat_klik_tombol_mulai_untuk_memulai_kuis"
+        android:textAlignment="center"
+        android:textColor="#474747"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView11"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="324dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#EFEBE9"
+        android:text="@string/mulai"
+        android:textColor="#474747"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -61,4 +61,9 @@
     <string name="video">video</string>
     <string name="games">games</string>
     <string name="cari_cerita">cari Cerita</string>
+    <string name="bacalah_soal_dengan_teliti_dan_pilih_jawaban_yang_tepat_klik_tombol_mulai_untuk_memulai_kuis">Bacalah soal dengan teliti dan pilih jawaban yang tepat. Klik tombol mulai untuk memulai kuis.</string>
+    <string name="mulai">Mulai</string>
+    <string name="peringatan">peringatan</string>
+    <string name="backbtnlistkuis">backbtnlistkuis</string>
+    <string name="listkuis">listkuis</string>
 </resources>
