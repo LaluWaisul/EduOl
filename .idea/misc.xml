@@ -20,10 +20,15 @@
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/drawable/ic_launcher_background.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/drawable/kotak.xml" value="0.24114583333333334" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/drawable/whitebg.xml" value="0.24114583333333334" />
+        <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_baca_cerita.xml" value="0.11041666666666666" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_cerita.xml" value="0.33" />
+        <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_detail_cerita.xml" value="0.25" />
+        <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_edit_profile.xml" value="0.11041666666666666" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_game.xml" value="0.11041666666666666" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_list_cerita.xml" value="0.225" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_list_kuis.xml" value="0.22" />
+        <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_list_video.xml" value="0.225" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Waisul Kuroni/AndroidStudioProjects/EduOl/app/src/main/res/layout/activity_ob1.xml" value="0.22" />
