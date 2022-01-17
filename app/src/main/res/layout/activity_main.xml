@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.google.android.material.bottomappbar.BottomAppBar
-        android:id="@+id/bottomApp"
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botton_navigation"
         android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:layout_gravity="bottom"
-        android:backgroundTint="@color/orange12"/>
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/orange12"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_navigation" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="62dp"
-        android:layout_height="62dp"
-        app:layout_anchor="@id/bottomApp"
-        android:backgroundTint="@color/white" />
-
-</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>
